@@ -22,6 +22,11 @@
   font-family: var(--font-body);
 }
 
+html,
+body {
+  height: 100;
+}
+
 .bg {
   position: absolute;
   inset: auto 0 0 0;
@@ -30,6 +35,7 @@
   background: url(../img/background.png);
   background-size: 100vw auto;
   overflow: hidden;
+  background-position: center bottom;
 }
 
 .image-button {
@@ -67,12 +73,12 @@
 }
 
 #fish-button {
-  left: 3%;
+  left: 10%;
   top: 55vh;
 }
 
 #extra-button {
-  left: 2%;
+  left: 4%;
   top: 10vh;
 }
 
@@ -112,19 +118,19 @@
   animation-delay: 0s;
   animation-duration: 12s;
   left: 50%;
-  --drift: -20px;
+  --drift: -27px;
 }
 .bubble:nth-child(4) {
   animation-delay: 0s;
   animation-duration: 18s;
   left: 70%;
-  --drift: 70px;
+  --drift: 74px;
 }
 .bubble:nth-child(5) {
   animation-delay: 0s;
   animation-duration: 10s;
   left: 90%;
-  --drift: -10px;
+  --drift: -13px;
 }
 
 .bubble:nth-child(6) {
@@ -149,7 +155,7 @@
 .bubble:nth-child(9) {
   animation-delay: 0s;
   animation-duration: 18s;
-  left: 87%;
+  left: -87%;
   --drift: 70px;
 }
 .bubble:nth-child(10) {
@@ -158,3 +164,4 @@
   left: 96%;
   --drift: -10px;
 }
+
