@@ -53,6 +53,33 @@ body {
   transition: transform 0.3s ease;
 }
 
+.pirat {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.3s ease;
+}
+
+.pirat span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+piratskib img {
+  max-width: 20%;
+  height: 15vh;
+}
+
 .image-button:hover {
   transform: scale(1.05);
 }
