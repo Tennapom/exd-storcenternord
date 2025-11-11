@@ -27,3 +27,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const skattekiste = document.getElementById("skattekiste");
   skattekiste.addEventListener("mouseover", handleSkattekisteHover);
 });
+
+
+function playBtn(event) {
+  const playBtnSound = new Audio("../sound/eating-chips.mp3");
+  playBtnSound.play();
+}
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  const playBtn = document.getElementById("play-button");
+  playBtn.addEventListener("click", playBtn);
+});
